@@ -14,8 +14,17 @@ public class Application {
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
     }
+    
+    /*@Bean
+	public CommandLineRunner demo(UserDao repository) {
+		return (args) -> {
+			// save a couple of customers
+			repository.save(new User("Bauer"));
+		};
+    }*/
 
-    @Bean
+
+    /*@Bean
     public CommandLineRunner commandLineRunner(ApplicationContext ctx) {
         return args -> {
 
@@ -28,6 +37,8 @@ public class Application {
             }
 
         };
-    }
+    }*/
+    
+    
 
 }
